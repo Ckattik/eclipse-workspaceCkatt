@@ -1,0 +1,30 @@
+package video_2_1;
+
+public class TestTax {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Tax t = new Tax();   // create an instance of Tax
+		
+		double grossIncome = Double.parseDouble(arg[0]);
+		double dependents = D
+		
+		
+//		t.grossIncome = 50000;
+//		t.dependents = 2;
+//		t.state = "NJ";
+		
+		
+		
+		
+//		NjTax t = new NjTax(40000, "NJ", 2);
+		
+		
+		
+		double yourTax = t.calcTax();
+//		double njt = t.adjustForStudents(yourTax);
+		
+        System.out.println("Yor tax is " + yourTax);
+	}
+
+}

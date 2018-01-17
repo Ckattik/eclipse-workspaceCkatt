@@ -1,0 +1,36 @@
+package video_3_1;
+
+public class TestStringImmuteble2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     
+		String str = "Helloqweeqeqe";
+		String str1 = str.substring(0,8);
+		
+	
+		
+		System.out.println(str1);
+		
+		
+		String str0 = "Вставка";
+		String str2 = "5ставка";
+		
+		int mas = str0.compareTo(str2);
+		
+		System.out.println(mas);
+		
+		boolean rez = str0.equals("Вставка");
+		System.out.println(rez);
+		
+		char s = str0.charAt(2);
+		System.out.println(6);
+		
+		char data [] = {'a','b','c','d'};
+		String str5 = new String(data);
+		
+		boolean rez1 = str5.equals(data);         // false
+		
+	}
+
+}
