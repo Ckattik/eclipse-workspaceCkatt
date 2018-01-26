@@ -58,7 +58,7 @@ public class Calculator extends JFrame{
 		
 //		Создание компонентов
 		
-		displayField = new JTextField("Hello!!!!");
+		displayField = new JTextField("0");
 		displayField.addActionListener(listener);
 		
 		
@@ -140,8 +140,7 @@ public class Calculator extends JFrame{
 	    add(buttonDivide, new GBC(2, 4).setFill(GBC.BOTH).setWeight(100, 100));
 	    add(buttonEqual, new GBC(3, 4).setFill(GBC.BOTH).setWeight(100, 100));
 	    
-	    //	    add(buttonDivide, new GBC(4, 3).setFill(GBC.BOTH).setWeight(100, 100));
-//	    
+		    
 	}
 	
 	public class CalculatorAction implements ActionListener {
