@@ -72,6 +72,9 @@ public class MyTicTacToe extends JApplet {
 		button7.addMouseListener(listener);
 		button8.addMouseListener(listener);
 		button9.addMouseListener(listener);
+		
+		
+		
 //        button2.addMouseListener(this);
 //        button3.addMouseListener(this);
 //        button4.addMouseListener(this);
