@@ -149,10 +149,10 @@ public class Calculator extends JFrame{
 
 	@Override
 	public void actionPerformed(ActionEvent event) {
-		// TODO Auto-generated method stub
-         //JButton clikedButton = (JButton)event.getSource();
-         //String clikedButtonLabel = clikedButton.getText();
-         //displayField = (JTextField)clikedButtonLabel;
+//		 TODO Auto-generated method stub
+         JButton clikedButton = (JButton)event.getSource();
+         String clikedButtonLabel = clikedButton.getText();
+//         displayField = (JTextField)clikedButtonLabel;
 		
 	}
 	
