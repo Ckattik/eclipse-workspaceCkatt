@@ -14,7 +14,18 @@ public class Test {
 		customers.add(cust2);
 		
 		Customer theBestCustomer = (Customer) customers.get(0);
-
+		
+//		Order ord = new Order();
+//		customers.add(ord);
+		
+		int totalElement = customers.size();
+		
+		for(int i = 0; i < totalElement; i++) {
+	     Customer currentCust =	(Customer)customers.get(i);
+	     System.out.println(currentCust.toString());
+	     
+		}
+        
 	}
 
 }
