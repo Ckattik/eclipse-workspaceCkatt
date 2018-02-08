@@ -16,4 +16,6 @@
     <fullyQualifiedTypeName name="Video_6.MyTicTacToe"/>
     <fullyQualifiedTypeName name="java.awt.event.MouseListener"/>
     <fullyQualifiedTypeName name="java.util.Hashtable"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="video_8.TestHashTable"/>
 </qualifiedTypeNameHistroy>
