@@ -20,7 +20,7 @@ public class TestInputStream {
 		while(!eof) {
 			
 			int byteValue = myFile.read();
-			System.out.println(byteValue + " ");
+			System.out.print(byteValue + " ");
 			
 			if(byteValue == -1) {
 				eof = true;

@@ -8,7 +8,7 @@ public class TestOutputStream {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
  
-		int somedata [] = { 34, 56, 76, 234, 324, 675};
+		int somedata [] = { 34, 56, 234, 324, 675, 31, 123, 132, 123, 123, 34, 5432, 543};
 		
 		FileOutputStream myFile = null;
 		

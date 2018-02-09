@@ -20,4 +20,7 @@
     <fullyQualifiedTypeName name="video_8.TestHashTable"/>
     <fullyQualifiedTypeName name="video_8_1.TestGenericCollections"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 </qualifiedTypeNameHistroy>
