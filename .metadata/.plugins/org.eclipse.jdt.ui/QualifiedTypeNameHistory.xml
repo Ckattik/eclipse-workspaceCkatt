@@ -27,4 +27,5 @@
     <fullyQualifiedTypeName name="java.awt.event.WindowAdapter"/>
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="java.awt.event.WindowEvent"/>
+    <fullyQualifiedTypeName name="java.rmi.registry.LocateRegistry"/>
 </qualifiedTypeNameHistroy>
