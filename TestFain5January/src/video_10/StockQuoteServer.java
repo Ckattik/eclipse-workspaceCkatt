@@ -1,0 +1,66 @@
+package video_10;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class StockQuoteServer {
+
+	public static void main(String [] args) {
+
+		ServerSocket serverSocket = null;
+		Socket client = null;
+		
+		BufferedReader inBound = null;
+		OutputStream outBound = null;
+		
+		try {
+			
+//			create a server socket
+			serverSocket = new ServerSocket(3000);
+
+			System.out.println("Waiting for a quote request...");
+			
+			
+			while(true) {
+			
+//			wait for request
+			client = serverSocket.accept();
+			
+//			get the streams
+			inBound = new BufferedReader(new InputStreamReader(client.getInputStream()));
+			outBound = client.getOutputStream();
+			
+			String symbol = inBound.readLine();
+			
+			//Generate a random stock price
+			
+			String price = (new Double(Math.random()*100)).toString();
+			
+			outBound.write(("\n The price of "+symbol+
+                    " is " + price + "\n").getBytes());
+			
+			System.out.println("Request for " + symbol + 
+                    " has been processed - the price of " + symbol+
+                      " is " + price + "\n" );	
+  
+			outBound.write("End\n".getBytes());
+			
+			
+			}
+		}catch(IOException ioe) {
+		System.out.println("Error in server " + ioe);
+	}finally {
+		try {
+			inBound.close();
+			outBound.close();
+		
+		}catch(Exception e) {
+			System.out.println("StockQuoteServer: can't close streams" + e.getMessage());
+		}
+	}
+	}
+	}

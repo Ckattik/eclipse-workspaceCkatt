@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>video_10</name>
+			<type>2</type>
+			<location>C:/Users/Ckatt/Desktop/code/video_10</location>
+		</link>
+	</linkedResources>
 </projectDescription>
